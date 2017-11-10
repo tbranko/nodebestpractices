@@ -3,7 +3,7 @@
 
 ### One Paragraph Explainer
 
-We all know how checking arguments and failing fast is important to avoid hidden bugs (see anti-pattern code example below). If not, read about explicit programming and defensive programming. In reality, we tend to avoid it due to the annoyance of coding it (e.g. think of validating hierarchical  JSON object with fields like email and dates) – libraries like Joi and Validator turn this tedious task into a breeze.
+We all know how checking arguments and failing fast is important to avoid hidden bugs (see anti-pattern code example below). If not, read about explicit programming and defensive programming. In reality, we tend to avoid it due to the annoyance of coding it (e.g. think of validating hierarchical JSON object with fields like email and dates) – libraries like Joi and Validator turn this tedious task into a breeze.
 
 ### Wikipedia: Defensive Programming
 
@@ -32,7 +32,7 @@ function addNewMember(newMember)
 ### Anti-pattern: no validation yields nasty bugs
 
 ```javascript
-//if the discount is positive let's then redirect the user to pring his discount coupons
+//if the discount is positive let's then redirect the user to print his discount coupons
 function redirectToPrintDiscount(httpResponse, member, discount)
 {
     if(discount != 0)
